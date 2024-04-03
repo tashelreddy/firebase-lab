@@ -1,0 +1,93 @@
+body {
+    /*Relative units - Relative to the size of the screen*/
+    width: 100%; /*set the body to 100% width of screen*/
+    height: 100vh; /*set the body 100% of viewport's height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    height: 60vh;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
+    display: flex; /*set items vertical or horizontally*/
+    justify-content: space-evenly;  /*space them out evenly horizontally*/
+    align-items: center; /*space them out vertically*/
+    flex-direction: column;
+}
+
+.container form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputBox {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden; /*if text overflws past the input box edges, we will hide the text*/
+}
+
+.inputBox input[type="text"], 
+.inputBox input[type="email"] {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0px 10px;
+    font-size: 16px;
+    color: rgb(7, 98, 244);
+}
+
+.inputBox textarea {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    padding: 0px 10px;
+    color: blue;
+}
+
+.inputBox button {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: rgb(0, 119, 255);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputBox button:hover {
+    background: rgb(0, 17, 255);
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.alert {
+    width: 100%;
+    background: rgb(0, 255, 106);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}

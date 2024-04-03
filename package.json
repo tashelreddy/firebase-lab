@@ -1,0 +1,22 @@
+{
+  "name": "wddm121week9",
+  "version": "1.0.0",
+  "description": "Using Firebase ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "markapptist"
+  },
+  "keywords": [
+    "firebase",
+    "wddm121"
+  ],
+  "author": "Mark Meritt",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.9.0"
+  }
+}
